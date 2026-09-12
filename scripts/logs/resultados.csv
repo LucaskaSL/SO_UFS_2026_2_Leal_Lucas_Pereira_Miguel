@@ -1,0 +1,4 @@
+timestamp,config,repeticao,modelo,prompt,real_time_s,total_duration_ms,load_duration_ms,prompt_eval_count,prompt_eval_duration_ms,eval_count,eval_duration_ms,tokens_per_second
+2026-09-12T20:11:38Z,config1_padrao,1,mistral:7b-instruct-v0.3-q4_0,"Olá, tudo bem?",19.454132837,16267,10843,11,500,61,4921,12.39
+2026-09-12T20:11:59Z,config1_padrao,2,mistral:7b-instruct-v0.3-q4_0,"Olá, tudo bem?",1.828589763,1821,0,11,84,22,1732,12.71
+2026-09-12T20:12:03Z,config1_padrao,3,mistral:7b-instruct-v0.3-q4_0,"Olá, tudo bem?",1.502196636,1495,0,11,83,18,1405,12.85

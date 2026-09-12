@@ -1,0 +1,10 @@
+timestamp,config,n_simultaneas,worker_id,modelo,prompt,real_time_s,total_duration_ms,load_duration_ms,eval_count,eval_duration_ms,tokens_per_second
+2026-09-12T20:15:27Z,config2_concorrencia_2,2,1,mistral:7b-instruct-v0.3-q4_0,"Olá, tudo bem?",4.868820725,4862,0,22,1744,12.64
+2026-09-12T20:15:27Z,config2_concorrencia_2,2,2,mistral:7b-instruct-v0.3-q4_0,"Olá, tudo bem?",3.034694255,3027,0,36,2933,12.28
+2026-09-12T20:16:27Z,config2_concorrencia_4,4,1,mistral:7b-instruct-v0.3-q4_0,"Olá, tudo bem?",20.805986746,17699,1,20,1567,12.82
+2026-09-12T20:16:27Z,config2_concorrencia_4,4,2,mistral:7b-instruct-v0.3-q4_0,"Olá, tudo bem?",19.154826336,16047,1,18,1412,12.76
+2026-09-12T20:16:27Z,config2_concorrencia_4,4,3,mistral:7b-instruct-v0.3-q4_0,"Olá, tudo bem?",17.645578672,14538,0,152,12626,12.04
+2026-09-12T20:16:27Z,config2_concorrencia_4,4,4,mistral:7b-instruct-v0.3-q4_0,"Olá, tudo bem?",1.835264669,1828,0,22,1737,12.71
+2026-09-12T20:18:25Z,config2_concorrencia_3,3,1,mistral:7b-instruct-v0.3-q4_0,"Olá, tudo bem?",68.507702288,62301,1,18,1409,12.85
+2026-09-12T20:18:25Z,config2_concorrencia_3,3,2,mistral:7b-instruct-v0.3-q4_0,"Olá, tudo bem?",65.137735144,58929,0,661,58834,11.23
+2026-09-12T20:18:25Z,config2_concorrencia_3,3,3,mistral:7b-instruct-v0.3-q4_0,"Olá, tudo bem?",67.011496064,60804,0,22,1749,12.64
