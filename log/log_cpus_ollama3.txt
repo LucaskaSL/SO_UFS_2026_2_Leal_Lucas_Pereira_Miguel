@@ -1,0 +1,20 @@
+=============================================
+RESULTADOS DA INFERÊNCIA (RAIO-X)
+=============================================
+CPUs / Threads Usadas   : 3
+Total de Tokens gerados : 136
+Latência Total          : 24.6386 s
+---------------------------------------------
+Tempo de I/O (Load)     : 5.1663 s  <- Leitura disco/RAM
+Tempo de TTFT (Prompt)  : 1.6151 s  <- Processamento da pergunta
+Tempo de CPU (Geração)  : 17.8554 s  <- Geração do texto
+---------------------------------------------
+Vazão (Throughput)      : 7.62 tokens/s
+---------------------------------------------
+MÉTRICAS DE HARDWARE
+Uso Médio CPU (Processo Ollama) : 0.24 %
+Uso Médio CPU Total (Sistema)   : 17.75 %
+Uso Médio RAM (Processo Ollama) : 42.46 MB
+Uso Médio RAM Total (Sistema)   : 43.08 %
+Uso Médio SWAP                 : 0.00 %
+=============================================
