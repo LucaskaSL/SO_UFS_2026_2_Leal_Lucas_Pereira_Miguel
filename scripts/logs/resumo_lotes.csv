@@ -1,0 +1,4 @@
+timestamp,config,n_simultaneas,modelo,prompt,tempo_total_lote_s,tempo_medio_por_req_s,throughput_req_por_s
+2026-09-12T20:15:27Z,config2_concorrencia_2,2,mistral:7b-instruct-v0.3-q4_0,"Olá, tudo bem?",4.872927047,3.951,.410
+2026-09-12T20:16:27Z,config2_concorrencia_4,4,mistral:7b-instruct-v0.3-q4_0,"Olá, tudo bem?",20.810025365,14.860,.192
+2026-09-12T20:18:25Z,config2_concorrencia_3,3,mistral:7b-instruct-v0.3-q4_0,"Olá, tudo bem?",68.511748232,66.885,.043
