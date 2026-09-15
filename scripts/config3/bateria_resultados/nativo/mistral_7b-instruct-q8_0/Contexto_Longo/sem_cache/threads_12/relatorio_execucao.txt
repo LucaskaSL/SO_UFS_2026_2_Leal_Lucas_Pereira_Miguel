@@ -1,0 +1,50 @@
+=======================================================
+MÉTRICAS DE BENCHMARK DE MODELO, CONTEXTO E CACHE
+=======================================================
+Ambiente de Execução      : nativo
+Modelo / Quantização      : mistral:7b-instruct-q8_0
+Cenário de Contexto       : Contexto_Longo
+Modo de KV Cache          : sem_cache
+Threads Ollama (Núcleos)  : 12
+-------------------------------------------------------
+Vazão Média (Decode)      : 0.80 tokens/s
+Latência Total E2E        : 256.8114 s
+Tempo TTFT (Prompt Eval)  : 149.1241 s
+Tempo Decode (Geração)    : 107.4534 s
+-------------------------------------------------------
+Consumo Médio RAM Ollama  : 39.42 MB
+Uso Médio RAM Total       : 49.14 %
+Uso Médio CPU Processo    : 0.46 %
+Uso Médio CPU Total       : 88.85 %
+-------------------------------------------------------
+USO MÉDIO INDIVIDUAL DOS NÚCLEOS (CPU CORES)
+Core 00                  : 87.51 %
+Core 01                  : 96.70 %
+Core 02                  : 89.52 %
+Core 03                  : 96.34 %
+Core 04                  : 90.22 %
+Core 05                  : 85.22 %
+Core 06                  : 83.47 %
+Core 07                  : 91.95 %
+Core 08                  : 91.64 %
+Core 09                  : 95.08 %
+Core 10                  : 91.52 %
+Core 11                  : 96.60 %
+Core 12                  : 87.19 %
+Core 13                  : 87.54 %
+Core 14                  : 86.19 %
+Core 15                  : 74.48 %
+-------------------------------------------------------
+RESPOSTA AMOSTRA:
+Resumo técnico dos riscos operacionais identificados:
+
+1. Riscos de inconsistência em sistemas distribuídos:
+* Riscos de latência de sincronização no disco (fsync) em operações de alta gravação.
+* Riscos de falhas de replicação streaming via Write-Ahead Logging (WAL) em bancos de dados relacionais.
+1. Riscos de comunicação de baixa latência:
+* Riscos de Head-of-Line Blocking na camada de transporte usando tradicional HTTP/1.1.
+* Riscos de falhas de implementação de protocolos QUIC.
+1. Riscos de computação e inferência de LLMs:
+* Riscos de falhas na fase de prefill na arquitetura Transformer.
+* Riscos de falhas
+=======================================================

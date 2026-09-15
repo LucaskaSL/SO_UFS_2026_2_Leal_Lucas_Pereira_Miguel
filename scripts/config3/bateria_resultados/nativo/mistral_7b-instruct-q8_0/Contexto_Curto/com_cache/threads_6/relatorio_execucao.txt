@@ -1,0 +1,44 @@
+=======================================================
+MÉTRICAS DE BENCHMARK DE MODELO, CONTEXTO E CACHE
+=======================================================
+Ambiente de Execução      : nativo
+Modelo / Quantização      : mistral:7b-instruct-q8_0
+Cenário de Contexto       : Contexto_Curto
+Modo de KV Cache          : com_cache
+Threads Ollama (Núcleos)  : 6
+-------------------------------------------------------
+Vazão Média (Decode)      : 4.71 tokens/s
+Latência Total E2E        : 15.0898 s
+Tempo TTFT (Prompt Eval)  : 0.2085 s
+Tempo Decode (Geração)    : 14.8744 s
+-------------------------------------------------------
+Consumo Médio RAM Ollama  : 46.90 MB
+Uso Médio RAM Total       : 51.62 %
+Uso Médio CPU Processo    : 0.16 %
+Uso Médio CPU Total       : 38.97 %
+-------------------------------------------------------
+USO MÉDIO INDIVIDUAL DOS NÚCLEOS (CPU CORES)
+Core 00                  : 39.84 %
+Core 01                  : 60.29 %
+Core 02                  : 20.83 %
+Core 03                  : 79.28 %
+Core 04                  : 5.13 %
+Core 05                  : 2.90 %
+Core 06                  : 6.43 %
+Core 07                  : 6.26 %
+Core 08                  : 2.48 %
+Core 09                  : 98.70 %
+Core 10                  : 19.72 %
+Core 11                  : 80.66 %
+Core 12                  : 12.23 %
+Core 13                  : 87.98 %
+Core 14                  : 2.18 %
+Core 15                  : 98.72 %
+-------------------------------------------------------
+RESPOSTA AMOSTRA:
+{
+  "servico": "database-cluster-02",
+  "erro": "DeadlockDetected: Connection pool exhausted while executing query on table 'orders'. Transaction aborted by lock manager after 10000ms timeout.",
+  "prioridade": "CRITICAL"
+}
+=======================================================

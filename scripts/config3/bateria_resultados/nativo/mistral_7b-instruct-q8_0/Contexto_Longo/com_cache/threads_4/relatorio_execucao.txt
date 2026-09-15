@@ -1,0 +1,46 @@
+=======================================================
+MÉTRICAS DE BENCHMARK DE MODELO, CONTEXTO E CACHE
+=======================================================
+Ambiente de Execução      : nativo
+Modelo / Quantização      : mistral:7b-instruct-q8_0
+Cenário de Contexto       : Contexto_Longo
+Modo de KV Cache          : com_cache
+Threads Ollama (Núcleos)  : 4
+-------------------------------------------------------
+Vazão Média (Decode)      : 3.38 tokens/s
+Latência Total E2E        : 59.1298 s
+Tempo TTFT (Prompt Eval)  : 0.2869 s
+Tempo Decode (Geração)    : 58.8163 s
+-------------------------------------------------------
+Consumo Médio RAM Ollama  : 37.44 MB
+Uso Médio RAM Total       : 50.75 %
+Uso Médio CPU Processo    : 0.08 %
+Uso Médio CPU Total       : 35.43 %
+-------------------------------------------------------
+USO MÉDIO INDIVIDUAL DOS NÚCLEOS (CPU CORES)
+Core 00                  : 43.57 %
+Core 01                  : 20.42 %
+Core 02                  : 65.05 %
+Core 03                  : 32.47 %
+Core 04                  : 20.70 %
+Core 05                  : 11.76 %
+Core 06                  : 23.52 %
+Core 07                  : 11.69 %
+Core 08                  : 54.63 %
+Core 09                  : 40.23 %
+Core 10                  : 30.17 %
+Core 11                  : 17.18 %
+Core 12                  : 71.05 %
+Core 13                  : 25.03 %
+Core 14                  : 70.81 %
+Core 15                  : 29.44 %
+-------------------------------------------------------
+RESPOSTA AMOSTRA:
+Resumo técnico dos riscos operacionais identificados:
+
+1. Riscos de latência de sincronização no disco (fsync) em operações de alta gravação em sistemas distribuídos.
+2. Riscos de Head-of-Line Blocking na camada de transporte em comunicação de baixa latência em microsserviços.
+3. Riscos de falhas na implementação de controle de acesso baseado em funções (RBAC) em ambientes distribuídos.
+4. Riscos de falhas na validação de tokens assinados criptograficamente (JWT) em implementações de RBAC.
+5. Riscos de falhas na implementação de estratégias avançadas de replicação streaming via Write-Ahead Logging (WAL) em bancos
+=======================================================

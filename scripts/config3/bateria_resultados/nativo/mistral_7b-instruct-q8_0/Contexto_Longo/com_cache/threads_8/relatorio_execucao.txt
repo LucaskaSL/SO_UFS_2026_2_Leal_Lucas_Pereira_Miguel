@@ -1,0 +1,47 @@
+=======================================================
+MÉTRICAS DE BENCHMARK DE MODELO, CONTEXTO E CACHE
+=======================================================
+Ambiente de Execução      : nativo
+Modelo / Quantização      : mistral:7b-instruct-q8_0
+Cenário de Contexto       : Contexto_Longo
+Modo de KV Cache          : com_cache
+Threads Ollama (Núcleos)  : 8
+-------------------------------------------------------
+Vazão Média (Decode)      : 3.49 tokens/s
+Latência Total E2E        : 57.2495 s
+Tempo TTFT (Prompt Eval)  : 0.2781 s
+Tempo Decode (Geração)    : 56.9431 s
+-------------------------------------------------------
+Consumo Médio RAM Ollama  : 38.49 MB
+Uso Médio RAM Total       : 51.82 %
+Uso Médio CPU Processo    : 0.15 %
+Uso Médio CPU Total       : 69.73 %
+-------------------------------------------------------
+USO MÉDIO INDIVIDUAL DOS NÚCLEOS (CPU CORES)
+Core 00                  : 64.98 %
+Core 01                  : 78.16 %
+Core 02                  : 58.80 %
+Core 03                  : 78.38 %
+Core 04                  : 57.12 %
+Core 05                  : 80.62 %
+Core 06                  : 62.66 %
+Core 07                  : 77.95 %
+Core 08                  : 44.24 %
+Core 09                  : 96.28 %
+Core 10                  : 57.09 %
+Core 11                  : 80.82 %
+Core 12                  : 47.39 %
+Core 13                  : 94.06 %
+Core 14                  : 71.50 %
+Core 15                  : 67.55 %
+-------------------------------------------------------
+RESPOSTA AMOSTRA:
+Resumo técnico dos riscos operacionais identificados:
+
+1. Riscos de latência de sincronização no disco (fsync) em operações de alta gravação em sistemas distribuídos.
+2. Riscos de Head-of-Line Blocking na camada de transporte em comunicação de baixa latência em microsserviços.
+3. Riscos de falhas na implementação de controle de acesso baseado em funções (RBAC) em ambientes distribuídos.
+4. Riscos de falhas na validação de tokens assinados criptograficamente (JWT) em implementações de RBAC.
+5. Riscos de falhas na implementação de protocolos de redes, como HTTP/1.1, HTTP/2 e HTTP/3 (QUIC).
+6.
+=======================================================

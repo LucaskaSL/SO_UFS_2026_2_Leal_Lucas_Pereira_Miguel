@@ -1,0 +1,52 @@
+=======================================================
+MÉTRICAS DE BENCHMARK DE MODELO, CONTEXTO E CACHE
+=======================================================
+Ambiente de Execução      : nativo
+Modelo / Quantização      : mistral:7b-instruct-q4_K_M
+Cenário de Contexto       : Contexto_Longo
+Modo de KV Cache          : sem_cache
+Threads Ollama (Núcleos)  : 16
+-------------------------------------------------------
+Vazão Média (Decode)      : 1.23 tokens/s
+Latência Total E2E        : 163.0517 s
+Tempo TTFT (Prompt Eval)  : 118.3932 s
+Tempo Decode (Geração)    : 42.2780 s
+-------------------------------------------------------
+Consumo Médio RAM Ollama  : 41.73 MB
+Uso Médio RAM Total       : 41.88 %
+Uso Médio CPU Processo    : 0.04 %
+Uso Médio CPU Total       : 98.88 %
+-------------------------------------------------------
+USO MÉDIO INDIVIDUAL DOS NÚCLEOS (CPU CORES)
+Core 00                  : 98.85 %
+Core 01                  : 98.82 %
+Core 02                  : 98.90 %
+Core 03                  : 98.87 %
+Core 04                  : 98.82 %
+Core 05                  : 98.79 %
+Core 06                  : 98.87 %
+Core 07                  : 98.78 %
+Core 08                  : 98.93 %
+Core 09                  : 98.87 %
+Core 10                  : 98.81 %
+Core 11                  : 98.79 %
+Core 12                  : 98.86 %
+Core 13                  : 99.64 %
+Core 14                  : 98.95 %
+Core 15                  : 99.03 %
+-------------------------------------------------------
+RESPOSTA AMOSTRA:
+Resumo técnico dos riscos operacionais identificados:
+
+1. Riscos de inconsistência em sistemas distribuídos:
+* Riscos de falhas de replicação streaming via Write-Ahead Logging (WAL)
+* Riscos de latência de sincronização no disco (fsync)
+1. Riscos de comunicação de baixa latência:
+* Riscos de Head-of-Line Blocking na camada de transporte
+* Riscos de falhas na implementação de protocolos de rede
+1. Riscos de computação e inferência de LLMs:
+* Riscos de falhas na fase de prefill
+* Riscos de falhas na fase de geração
+1. Riscos de segurança e gerenciamento de identidade:
+* Riscos de falhas na implementação de controle de a
+=======================================================

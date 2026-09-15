@@ -1,0 +1,47 @@
+=======================================================
+MÉTRICAS DE BENCHMARK DE MODELO, CONTEXTO E CACHE
+=======================================================
+Ambiente de Execução      : nativo
+Modelo / Quantização      : mistral:7b-instruct-q8_0
+Cenário de Contexto       : Contexto_Longo
+Modo de KV Cache          : sem_cache
+Threads Ollama (Núcleos)  : 4
+-------------------------------------------------------
+Vazão Média (Decode)      : 0.90 tokens/s
+Latência Total E2E        : 222.6733 s
+Tempo TTFT (Prompt Eval)  : 170.4821 s
+Tempo Decode (Geração)    : 50.3019 s
+-------------------------------------------------------
+Consumo Médio RAM Ollama  : 40.60 MB
+Uso Médio RAM Total       : 53.34 %
+Uso Médio CPU Processo    : 0.04 %
+Uso Médio CPU Total       : 25.66 %
+-------------------------------------------------------
+USO MÉDIO INDIVIDUAL DOS NÚCLEOS (CPU CORES)
+Core 00                  : 6.89 %
+Core 01                  : 1.83 %
+Core 02                  : 46.38 %
+Core 03                  : 52.10 %
+Core 04                  : 1.57 %
+Core 05                  : 0.51 %
+Core 06                  : 1.67 %
+Core 07                  : 0.68 %
+Core 08                  : 44.62 %
+Core 09                  : 51.73 %
+Core 10                  : 2.53 %
+Core 11                  : 0.85 %
+Core 12                  : 40.89 %
+Core 13                  : 58.50 %
+Core 14                  : 45.86 %
+Core 15                  : 53.77 %
+-------------------------------------------------------
+RESPOSTA AMOSTRA:
+Resumo técnico dos riscos operacionais identificados:
+
+1. Riscos de inconsistência em sistemas distribuídos:
+* Teorema CAP: Consistência em sistemas distribuídos é regida pelo Teorema CAP.
+* Use de bancos de dados relacionais: Em arquiteturas microprocessadas, o uso de bancos de dados relacionais exige estratégias avançadas de replicação streaming via Write-Ahead Logging (WAL).
+* Gargalo em operações de alta gravação: O gargalo em operações de alta gravação reside na latência de sincronização no disco (fsync).
+2. Riscos de comunicação de baixa latência:
+* Migração do HTTP/1.1 para gRPC: A comun
+=======================================================

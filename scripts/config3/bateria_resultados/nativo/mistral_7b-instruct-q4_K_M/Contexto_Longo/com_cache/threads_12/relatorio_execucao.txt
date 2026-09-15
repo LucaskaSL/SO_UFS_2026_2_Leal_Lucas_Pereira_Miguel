@@ -1,0 +1,47 @@
+=======================================================
+MÉTRICAS DE BENCHMARK DE MODELO, CONTEXTO E CACHE
+=======================================================
+Ambiente de Execução      : nativo
+Modelo / Quantização      : mistral:7b-instruct-q4_K_M
+Cenário de Contexto       : Contexto_Longo
+Modo de KV Cache          : com_cache
+Threads Ollama (Núcleos)  : 12
+-------------------------------------------------------
+Vazão Média (Decode)      : 5.85 tokens/s
+Latência Total E2E        : 34.1936 s
+Tempo TTFT (Prompt Eval)  : 0.1648 s
+Tempo Decode (Geração)    : 34.0037 s
+-------------------------------------------------------
+Consumo Médio RAM Ollama  : 40.87 MB
+Uso Médio RAM Total       : 40.61 %
+Uso Médio CPU Processo    : 0.31 %
+Uso Médio CPU Total       : 75.64 %
+-------------------------------------------------------
+USO MÉDIO INDIVIDUAL DOS NÚCLEOS (CPU CORES)
+Core 00                  : 69.89 %
+Core 01                  : 97.44 %
+Core 02                  : 68.19 %
+Core 03                  : 99.40 %
+Core 04                  : 65.68 %
+Core 05                  : 98.66 %
+Core 06                  : 98.10 %
+Core 07                  : 6.42 %
+Core 08                  : 46.19 %
+Core 09                  : 99.40 %
+Core 10                  : 99.40 %
+Core 11                  : 4.99 %
+Core 12                  : 59.25 %
+Core 13                  : 98.57 %
+Core 14                  : 99.39 %
+Core 15                  : 99.40 %
+-------------------------------------------------------
+RESPOSTA AMOSTRA:
+Resumo técnico dos riscos operacionais identificados:
+
+1. Riscos de latência de sincronização no disco (fsync) em operações de alta gravação em sistemas distribuídos.
+2. Riscos de Head-of-Line Blocking na camada de transporte em comunicação de baixa latência em microsserviços.
+3. Riscos de falhas de autenticação e autorização em implementações de controle de acesso baseado em funções (RBAC) em ambientes distribuídos.
+4. Riscos de falhas de validação de tokens assinados criptograficamente (JWT) em implementações de RBAC.
+5. Riscos de falhas de sincronização de dados em sistemas distribuídos.
+6. Ris
+=======================================================

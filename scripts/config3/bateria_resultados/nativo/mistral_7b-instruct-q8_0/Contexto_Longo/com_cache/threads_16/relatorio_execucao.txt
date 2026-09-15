@@ -1,0 +1,46 @@
+=======================================================
+MÉTRICAS DE BENCHMARK DE MODELO, CONTEXTO E CACHE
+=======================================================
+Ambiente de Execução      : nativo
+Modelo / Quantização      : mistral:7b-instruct-q8_0
+Cenário de Contexto       : Contexto_Longo
+Modo de KV Cache          : com_cache
+Threads Ollama (Núcleos)  : 16
+-------------------------------------------------------
+Vazão Média (Decode)      : 1.45 tokens/s
+Latência Total E2E        : 139.1955 s
+Tempo TTFT (Prompt Eval)  : 0.8422 s
+Tempo Decode (Geração)    : 138.3263 s
+-------------------------------------------------------
+Consumo Médio RAM Ollama  : 36.50 MB
+Uso Médio RAM Total       : 52.52 %
+Uso Médio CPU Processo    : 0.03 %
+Uso Médio CPU Total       : 99.75 %
+-------------------------------------------------------
+USO MÉDIO INDIVIDUAL DOS NÚCLEOS (CPU CORES)
+Core 00                  : 99.78 %
+Core 01                  : 99.79 %
+Core 02                  : 99.48 %
+Core 03                  : 99.44 %
+Core 04                  : 99.82 %
+Core 05                  : 99.77 %
+Core 06                  : 99.76 %
+Core 07                  : 99.83 %
+Core 08                  : 99.77 %
+Core 09                  : 99.80 %
+Core 10                  : 99.82 %
+Core 11                  : 99.80 %
+Core 12                  : 99.78 %
+Core 13                  : 99.78 %
+Core 14                  : 99.79 %
+Core 15                  : 99.82 %
+-------------------------------------------------------
+RESPOSTA AMOSTRA:
+Resumo técnico dos riscos operacionais identificados:
+
+1. Riscos de latência de sincronização no disco (fsync) em operações de alta gravação em sistemas distribuídos.
+2. Riscos de Head-of-Line Blocking na camada de transporte em comunicação de baixa latência em microsserviços.
+3. Riscos de falhas na implementação de controle de acesso baseado em funções (RBAC) em ambientes distribuídos.
+4. Riscos de falhas na validação de tokens assinados criptograficamente (JWT) em implementações de RBAC.
+5. Riscos de falhas na comunicação de baixa latência em microsserviços migrada do tradicional HTTP/1.1 para gRPC baseado
+=======================================================

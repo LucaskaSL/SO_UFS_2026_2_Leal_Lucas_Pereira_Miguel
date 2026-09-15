@@ -1,0 +1,46 @@
+=======================================================
+MÉTRICAS DE BENCHMARK DE MODELO, CONTEXTO E CACHE
+=======================================================
+Ambiente de Execução      : nativo
+Modelo / Quantização      : mistral:7b-instruct-q4_K_M
+Cenário de Contexto       : Contexto_Longo
+Modo de KV Cache          : com_cache
+Threads Ollama (Núcleos)  : 8
+-------------------------------------------------------
+Vazão Média (Decode)      : 6.25 tokens/s
+Latência Total E2E        : 32.0194 s
+Tempo TTFT (Prompt Eval)  : 0.1515 s
+Tempo Decode (Geração)    : 31.8432 s
+-------------------------------------------------------
+Consumo Médio RAM Ollama  : 41.26 MB
+Uso Médio RAM Total       : 40.61 %
+Uso Médio CPU Processo    : 0.27 %
+Uso Médio CPU Total       : 51.19 %
+-------------------------------------------------------
+USO MÉDIO INDIVIDUAL DOS NÚCLEOS (CPU CORES)
+Core 00                  : 45.58 %
+Core 01                  : 56.35 %
+Core 02                  : 38.40 %
+Core 03                  : 64.01 %
+Core 04                  : 19.09 %
+Core 05                  : 85.01 %
+Core 06                  : 44.05 %
+Core 07                  : 57.46 %
+Core 08                  : 26.40 %
+Core 09                  : 74.94 %
+Core 10                  : 35.38 %
+Core 11                  : 66.71 %
+Core 12                  : 27.01 %
+Core 13                  : 75.64 %
+Core 14                  : 4.28 %
+Core 15                  : 98.90 %
+-------------------------------------------------------
+RESPOSTA AMOSTRA:
+Resumo técnico dos riscos operacionais identificados:
+
+1. Riscos de latência de sincronização no disco (fsync) em operações de alta gravação em sistemas distribuídos.
+2. Riscos de Head-of-Line Blocking na camada de transporte em comunicação de baixa latência em microsserviços.
+3. Riscos de falhas de autenticação e autorização em implementações de controle de acesso baseado em funções (RBAC) em ambientes distribuídos.
+4. Riscos de falhas de validação de tokens assinados criptograficamente (JWT) em implementações de RBAC.
+5. Riscos de falhas de validação com algoritmos assimétricos em implementações de RB
+=======================================================

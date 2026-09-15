@@ -1,0 +1,50 @@
+=======================================================
+MÉTRICAS DE BENCHMARK DE MODELO, CONTEXTO E CACHE
+=======================================================
+Ambiente de Execução      : nativo
+Modelo / Quantização      : mistral:7b-instruct-q4_K_M
+Cenário de Contexto       : Contexto_Longo
+Modo de KV Cache          : sem_cache
+Threads Ollama (Núcleos)  : 6
+-------------------------------------------------------
+Vazão Média (Decode)      : 1.30 tokens/s
+Latência Total E2E        : 154.3789 s
+Tempo TTFT (Prompt Eval)  : 118.8673 s
+Tempo Decode (Geração)    : 33.6875 s
+-------------------------------------------------------
+Consumo Médio RAM Ollama  : 41.08 MB
+Uso Médio RAM Total       : 37.95 %
+Uso Médio CPU Processo    : 0.06 %
+Uso Médio CPU Total       : 40.39 %
+-------------------------------------------------------
+USO MÉDIO INDIVIDUAL DOS NÚCLEOS (CPU CORES)
+Core 00                  : 47.85 %
+Core 01                  : 53.57 %
+Core 02                  : 37.86 %
+Core 03                  : 63.49 %
+Core 04                  : 9.19 %
+Core 05                  : 5.26 %
+Core 06                  : 15.03 %
+Core 07                  : 8.69 %
+Core 08                  : 26.92 %
+Core 09                  : 74.90 %
+Core 10                  : 56.81 %
+Core 11                  : 43.82 %
+Core 12                  : 23.17 %
+Core 13                  : 79.34 %
+Core 14                  : 56.26 %
+Core 15                  : 45.09 %
+-------------------------------------------------------
+RESPOSTA AMOSTRA:
+Resumo técnico dos riscos operacionais identificados:
+
+1. Riscos de inconsistência em sistemas distribuídos:
+* Riscos de falhas de replicação streaming via Write-Ahead Logging (WAL)
+* Riscos de gargalo em operações de alta gravação devido a latência de sincronização no disco (fsync)
+1. Riscos de comunicação de baixa latência:
+* Riscos de Head-of-Line Blocking na camada de transporte
+* Riscos de falhas na implementação de protocolos de rede (HTTP/1.1, HTTP/2, HTTP/3, QUIC)
+1. Riscos de computação e inferência de LLMs:
+* Riscos de falhas na fase de prefill
+* Riscos de falhas na fase de gera
+=======================================================

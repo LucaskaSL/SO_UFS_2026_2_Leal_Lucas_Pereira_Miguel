@@ -1,0 +1,46 @@
+=======================================================
+MÉTRICAS DE BENCHMARK DE MODELO, CONTEXTO E CACHE
+=======================================================
+Ambiente de Execução      : nativo
+Modelo / Quantização      : mistral:7b-instruct-q4_K_M
+Cenário de Contexto       : Contexto_Curto
+Modo de KV Cache          : sem_cache
+Threads Ollama (Núcleos)  : 6
+-------------------------------------------------------
+Vazão Média (Decode)      : 3.88 tokens/s
+Latência Total E2E        : 13.2897 s
+Tempo TTFT (Prompt Eval)  : 5.5940 s
+Tempo Decode (Geração)    : 5.9671 s
+-------------------------------------------------------
+Consumo Médio RAM Ollama  : 45.87 MB
+Uso Médio RAM Total       : 33.63 %
+Uso Médio CPU Processo    : 0.23 %
+Uso Médio CPU Total       : 35.82 %
+-------------------------------------------------------
+USO MÉDIO INDIVIDUAL DOS NÚCLEOS (CPU CORES)
+Core 00                  : 29.03 %
+Core 01                  : 61.74 %
+Core 02                  : 64.72 %
+Core 03                  : 26.02 %
+Core 04                  : 3.87 %
+Core 05                  : 1.95 %
+Core 06                  : 11.16 %
+Core 07                  : 4.28 %
+Core 08                  : 47.53 %
+Core 09                  : 44.92 %
+Core 10                  : 63.81 %
+Core 11                  : 25.88 %
+Core 12                  : 49.74 %
+Core 13                  : 42.90 %
+Core 14                  : 84.83 %
+Core 15                  : 14.58 %
+-------------------------------------------------------
+RESPOSTA AMOSTRA:
+```json
+{
+  "servico": "database-cluster-02",
+  "erro": "DeadlockDetected",
+  "prioridade": "CRITICAL"
+}
+```
+=======================================================

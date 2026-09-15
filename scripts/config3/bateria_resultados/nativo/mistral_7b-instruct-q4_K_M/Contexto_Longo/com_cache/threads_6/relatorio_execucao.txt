@@ -1,0 +1,43 @@
+=======================================================
+MÉTRICAS DE BENCHMARK DE MODELO, CONTEXTO E CACHE
+=======================================================
+Ambiente de Execução      : nativo
+Modelo / Quantização      : mistral:7b-instruct-q4_K_M
+Cenário de Contexto       : Contexto_Longo
+Modo de KV Cache          : com_cache
+Threads Ollama (Núcleos)  : 6
+-------------------------------------------------------
+Vazão Média (Decode)      : 6.09 tokens/s
+Latência Total E2E        : 32.8558 s
+Tempo TTFT (Prompt Eval)  : 0.1565 s
+Tempo Decode (Geração)    : 32.6763 s
+-------------------------------------------------------
+Consumo Médio RAM Ollama  : 41.00 MB
+Uso Médio RAM Total       : 40.63 %
+Uso Médio CPU Processo    : 0.19 %
+Uso Médio CPU Total       : 38.02 %
+-------------------------------------------------------
+USO MÉDIO INDIVIDUAL DOS NÚCLEOS (CPU CORES)
+Core 00                  : 36.60 %
+Core 01                  : 63.05 %
+Core 02                  : 39.56 %
+Core 03                  : 60.04 %
+Core 04                  : 2.73 %
+Core 05                  : 1.65 %
+Core 06                  : 3.94 %
+Core 07                  : 2.36 %
+Core 08                  : 23.68 %
+Core 09                  : 75.95 %
+Core 10                  : 57.97 %
+Core 11                  : 40.91 %
+Core 12                  : 17.00 %
+Core 13                  : 82.83 %
+Core 14                  : 0.68 %
+Core 15                  : 99.36 %
+-------------------------------------------------------
+RESPOSTA AMOSTRA:
+Resumo técnico dos riscos operacionais identificados:
+
+1. Riscos de inconsistência em sistemas distribuídos: A consistência em sistemas distribuídos é regida pelo Teorema CAP, e em arquiteturas microprocessadas, o uso de bancos de dados relacionais exige estratégias avançadas de replicação streaming via Write-Ahead Logging (WAL). O gargalo em operações de alta gravação reside na latência de sincronização no disco (fsync).
+2. Riscos de latência de transporte: A comunicação de baixa latência em microsserviços migrou do tradicional HTTP/1.1 para gRPC baseado em HTTP/2 e HTTP/3 (QUIC). O protocolo QUIC elimina o Head-of-
+=======================================================
