@@ -114,3 +114,6 @@ Para mudar tal configuração, basta criar um arquivo chamado Modelfile (sem ext
 ``ollama create mistral-4cores -f Modelfile``
 
 Esse **mistral-4cores** é um nome qualquer que você pode dar a esse "novo" modelo. A partir desse momento, você pode realizar a inferência no modelo customizado usando o terminal ``ollama run mistral-4cores`` ou alterar o parâmetro ``"model": "mistral-4cores"`` no script ``teste.py``, garantindo o isolamento de recursos durante o monitoramento de processos.
+
+## 6. Vídeo da atividade:
+<https://youtu.be/2vLqXIa08Dk>
